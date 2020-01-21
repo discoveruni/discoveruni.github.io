@@ -2,6 +2,7 @@
 title: Discover uni
 layout: default
 --- 
+{{site.time}} {{site.data.hecos.date}}
 {% assign today = site.time | date: "%Y-%m-%d" %}
 {% case today %}
 {% when site.data.hecos.date %}
