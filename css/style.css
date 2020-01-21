@@ -1,1 +1,5 @@
-body { align:center }
+body { 
+  align: center; 
+  background-color: white;
+  font-size: 3em;
+}
