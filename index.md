@@ -6,4 +6,4 @@ layout: default
   <h1>  {{ hecos.code }} </h1>
   <h2> {{ hecos.term }} </h2>
   <p> {{ hecos.definition }} </p>
-{% endcase %}
+{% endfor %}
