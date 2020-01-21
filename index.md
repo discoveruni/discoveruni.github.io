@@ -9,11 +9,3 @@ layout: default
   <p> {{ site.data.hecos.definition }} </p>
   <br />
 {% endif %}
-
-
-{% for hecos in site.data.hecos %}
-  <h1>  {{ hecos.code }} </h1>
-  <h2> {{ hecos.term }} </h2>
-  <p> {{ hecos.definition }} </p>
-  <br />
-{% endfor %}
