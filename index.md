@@ -2,7 +2,7 @@
 title: Discover uni
 layout: default
 --- 
-{% assign hecoscodeoftheday = site.data.hecos | where: "date", site.time | "%Y-%m-%d" %}
+{% assign hecoscodeoftheday = site.data.hecos | where: "date", [site.time | "%Y-%m-%d"] %}
 {% for hecos in hecoscodeoftheday %}
 This one: {{ hecos.code }}
 {% endfor %}
