@@ -4,5 +4,7 @@ layout: default
 ---
 
 {% for hecos in site.data.hecos %}
-    {{ hecos.code }}
+  <h1>  {{ hecos.code }} </h1>
+  <h2> {{ hecos.term }} </h2>
+  <p> {{ hecos.definition }} >/p>
 {% endfor %}
