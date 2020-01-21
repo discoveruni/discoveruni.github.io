@@ -1,5 +1,5 @@
 # Welcome to Discover Uni!
 
-{% for code in site.data.hecos %}
-      {{ code }}
+{% for heocs in site.data.hecos %}
+      {{ hecos.code }}
 {% endfor %}
