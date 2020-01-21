@@ -1,8 +1,7 @@
 ---
 title: Discover uni
 layout: default
----
-{% assign 
+--- 
 {% if site.data.hecos.date == "today" | date: %Y-%m-%d  %}
   <h1>  {{ site.data.hecos.code }} </h1>
   <h2> {{ site.data.hecos.term }} </h2>
