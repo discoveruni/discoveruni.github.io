@@ -12,7 +12,7 @@ It WORKS
 It also WORKS
 {% endif %}
 
-{% for hecos in  site.data.hecos | where: hecos.code == "100629" %}
+{% for hecos in  site.data.hecos | where: hecos.code = "100629" %}
  bacon {{ todayscode }} sausage and bacon sausage
  {% if hecos.code == "100629" %}
  <h1>  {{ hecos.code }} </h1>
