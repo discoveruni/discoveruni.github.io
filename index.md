@@ -4,7 +4,7 @@ layout: default
 --- 
 
 {% for hecos in  site.data.hecos %}
-{% assign todayscode == today %}
+{% assign todayscode == "today" | date: "%Y-%m-%d %}
 {{ todayscode }}
  <h1>  {{ todayscode.code }} </h1>
   <h2> {{ hecos.term }} </h2>
