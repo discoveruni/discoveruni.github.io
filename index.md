@@ -2,7 +2,7 @@
 title: Discover uni
 layout: default
 --- 
-{% if site.data.hecos.date == today | date: "%Y-%m-%d" %}
+{% if site.data.hecos.date == [today | date: "%Y-%m-%d"] %}
 {{ Hello }}
 {% endif %}
 {% assign hecoscodeoftheday = site.data.hecos | where: "date", today %}
