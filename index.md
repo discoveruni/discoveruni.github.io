@@ -1,8 +1,9 @@
 ---
 title: Discover uni
 layout: default
---- 
-{% assign hecoscodeoftheday = site.data.hecos | where: "date", [site.time | "%Y-%m-%d"] %}
+--- #
+{% assign today = site.time | "%Y-%m-%d" %}
+{% assign hecoscodeoftheday = site.data.hecos | where: "date", today %}
 {% for hecos in hecoscodeoftheday %}
 This one: {{ hecos.code }}
 {% endfor %}
