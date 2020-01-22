@@ -2,7 +2,7 @@
 title: Discover uni
 layout: default
 --- 
-
+{% assign bacon = "today" | date: "%Y-%m-%d" %}
 {% assign sausage = site.data.hecos | where: "code", "100826" %}
 {{ sausage }}
 
