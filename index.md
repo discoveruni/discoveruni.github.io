@@ -2,7 +2,7 @@
 title: Discover uni
 layout: default
 --- 
-{% assign todayscode = site.data.hecos[site.date | date: "%Y-%m-%d"] %}
+{% assign todayscode = site.data.hecos.date %}
 {{ todayscode }}
 {% if site.data.hecos.date == [today | date: "%Y-%m-%d"] %}
 {{ Hello }}
