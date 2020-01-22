@@ -13,7 +13,7 @@ It WORKS
 {% endif %}
 
 {% for hecos in  site.data.hecos  %}
- bacon {{ todayscode }} sausage and EGGS
+ bacon {{ todayscode }} sausage and more sausage
  <h1>  {{ hecos.code }} </h1>
   <h2> {{ hecos.term }} </h2>
   <p> {{ hecos.definition }} </p>
