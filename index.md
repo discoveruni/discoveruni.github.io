@@ -3,7 +3,7 @@ title: Discover uni
 layout: default
 --- 
 
-{% assign sausage = site.date.hecos | where: "code", "100826" %}
+{% assign sausage = site.data.hecos | where: "code", "100826" %}
 {{ sausage }}
 
 {% for hecos in sausage %}
