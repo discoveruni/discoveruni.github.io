@@ -3,7 +3,7 @@ title: Discover uni
 layout: default
 --- 
 {% assign todayscode = "today" | date: "%Y-%m-%d"  %}
-{% if site.hecos.date = todayscode %}
+{% if site.data.hecos.date = todayscode %}
 It WORKS
 {% endif %}
 
