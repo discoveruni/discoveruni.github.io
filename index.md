@@ -8,7 +8,7 @@ It WORKS
 {% endif %}
 
 {% assign todayscode = "today" | date: "%Y-%m-%d"  %}
-{% if site.data.hecos.date == "2020-01-22" %}
+{% if site.data.hecos.date == " 2020-01-22 " %}
 It WORKS
 {% endif %}
 
