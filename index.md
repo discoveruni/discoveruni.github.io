@@ -14,7 +14,7 @@ It also WORKS
 
 {% for hecos in  site.data.hecos  %}
  bacon {{ todayscode }} sausage and bacon sausage
- {% if hecos.code == "100629" %}
+ {% if hecos.code = "100629" %}
  <h1>  {{ hecos.code }} </h1>
   <h2> {{ hecos.term }} </h2>
   <p> {{ hecos.definition }} </p>
