@@ -7,6 +7,11 @@ layout: default
 It WORKS
 {% endif %}
 
+{% assign todayscode = "today" | date: "%Y-%m-%d"  %}
+{% if site.data.hecos.date == "2020-01-22" %}
+It WORKS
+{% endif %}
+
 {% for hecos in  site.data.hecos  %}
  bacon {{ todayscode }} sausage and EGGS
  <h1>  {{ hecos.code }} </h1>
